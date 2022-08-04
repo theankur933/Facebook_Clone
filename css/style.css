@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.abc {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: #242526;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.left {
+  margin-left: 1%;
+}
+
+.search svg {
+  color: #e4e6eb;
+  position: relative;
+  left: 23px;
+}
+
+.left input {
+  width: 252px;
+  height: 40px;
+  background-color: rgb(255 255 255 / 10%);
+  border-radius: 50px;
+  border: none;
+  outline: 0;
+  margin-left: -6px;
+  padding-left: 36px;
+}
+
+.left input[type="text"] {
+  color: #e4e6eb;
+}
+
+.left input::placeholder {
+  color: #e4e6eb;
+}
+
+.center {
+  gap: 81%;
+  margin-right: 30%;
+}
+
+.center svg {
+  color: #b0b3b8;
+}
+
+.right,
+.left,
+.center,
+.search,
+.pic,
+.video,
+.live,
+.birthday {
+  align-items: center;
+}
+
+.right {
+  padding: 0 16px 0 4px;
+}
+
+.right .menu {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(255 255 255 / 10%);
+  margin-right: 10px;
+}
+
+.right svg {
+  color: #e4e6eb;
+  height: 20px;
+  width: 20px;
+  margin: 10px 0 0 10px;
+}
+
+.right img {
+  border-radius: 50%;
+}
+
+.left2 {
+  width: 23%;
+  background-color: #242526;
+  height: 601px;
+}
+
+.center2 {
+  width: 54%;
+  background-color: #242526;
+  height: 601px;
+}
+
+.right2 {
+  width: 23%;
+  background-color: #242526;
+  height: 601px;
+}
+
+.name {
+  margin: 5% 0 17px 4%;
+}
+
+.name img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.name p {
+  color: #e4e6eb;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 5%;
+}
+
+.see {
+  height: 28px;
+  width: 28px;
+  background-color: rgb(255 255 255 / 10%);
+  border-radius: 50%;
+}
+
+.see svg {
+  color: #e4e6eb;
+  margin: 6px 0 0 6px;
+}
+
+.name a {
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.name a:hover {
+  background-color: rgb(255 255 255 / 10%);
+  border-radius: 5px;
+}
+
+.story {
+  justify-content: space-evenly;
+  margin-right: 8%;
+  margin: 3% 8% 0 0;
+}
+
+.story img {
+  width: 112px;
+  height: 199px;
+  border-radius: 15px;
+}
+
+.post {
+  width: 500px;
+  height: 123px;
+  background-color: #2f3438;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.pic {
+  justify-content: space-evenly;
+  position: relative;
+  top: 12px;
+}
+
+.pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.pic input {
+  width: 420px;
+  height: 40px;
+  padding: 8px 12px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #e4e6eb;
+}
+
+.line {
+  border: 1px solid #e4e6eb;
+  width: 464px;
+  margin: 4% auto;
+}
+
+.live {
+  justify-content: space-evenly;
+}
+
+.video p {
+  margin-left: 5px;
+}
+
+.photo svg {
+  color: #45bd62;
+}
+
+.feeling svg {
+  color: #9b7927;
+}
+
+.live p,
+.Birthdays h3 {
+  color: #e4e6eb;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Birthdays {
+  margin: 6% 0 0 2%;
+}
+
+.birthday {
+  margin-top: 5%;
+}
+
+.birthday p {
+  color: #e4e6eb;
+  margin-left: 4%;
+}
+
+.linee {
+  border: 1px solid #e4e6eb;
+  width: 286px;
+  margin: 8% auto;
+}
