@@ -208,6 +208,10 @@ body {
   margin-left: 5px;
 }
 
+.live-video svg {
+  color: #f3425f;
+}
+
 .photo svg {
   color: #45bd62;
 }
